@@ -1,0 +1,31 @@
+nav {
+    display: flex;
+background-color: black;
+width: 100%;
+height: 80px;
+color:orangered;
+justify-content: space-between;
+text-align: center;
+padding:0px 4px ;
+
+ }
+#div-logo {
+    height: 50px;
+    width: 50px;
+}
+ul li {
+    list-style-type:none;
+    display:inline;
+    margin: 7px;
+}
+
+#logo {
+    height: 100%;
+    width:auto;
+}
+.img-redes {
+
+}
+.hamburguesa {
+    display:none;
+}
