@@ -1,3 +1,7 @@
+body {
+    margin:0;
+    font-family: 'Slabo 27px', serif;
+}
 nav {
     display: flex;
 background-color: black;
@@ -5,13 +9,17 @@ width: 100%;
 height: 80px;
 color:orangered;
 justify-content: space-between;
-text-align: center;
-padding:0px 4px ;
+align-items:center;
+
 
  }
 #div-logo {
     height: 50px;
     width: 50px;
+    padding-left: 20px;
+}
+.div-nav{
+    padding-right:20px;
 }
 ul li {
     list-style-type:none;
@@ -28,4 +36,120 @@ ul li {
 }
 .hamburguesa {
     display:none;
+}
+header{
+    display:flex;
+    width:100%;
+    height: auto;
+    justify-content:center;
+   padding: 30px;
+}
+.cuerpo {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+background-color: ghostwhite;
+padding:30px;
+}
+.cuerpo-redes
+{
+    display:flex;
+    padding:0;
+    justify-content: center;
+}
+#div-logo2 {
+    width: 50px;
+    height: 50px;
+}
+#logo2 {
+    width: 100%;
+    height:auto;
+}
+h1
+{
+    color: orangered;
+    margin:0;
+}
+p {
+    margin:0;
+}
+.texto-cuerpo {
+    width: 800px;
+    margin:10px;
+    
+
+}
+.img-redes{
+    width:30px;
+    height:30px;
+    margin:3px;
+   
+}
+
+.img-redes img {
+    width:100%;
+    height:auto;
+    
+}
+
+.avatares {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+.card {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: orangered;
+    margin: 10px;
+}
+.datos {
+    margin: 10px;
+}
+.img-avatar {
+    width: 120px;
+    height:120px;
+}
+.img-avatar img {
+    width:100%;
+    height: auto;
+}
+footer {
+    background-color: black;
+    color:orangered;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding-left:5px;
+    padding-right: 5px;
+}
+a {
+    color:orangered;
+    margin: 2px;
+}
+.mail {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.footer-redes {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media (max-width:600px){
+nav {
+justify-content: space-between;
+}
+    .div-nav {
+    display:none;
+}
+
+.hamburguesa{
+    display:flex;
+}
 }
