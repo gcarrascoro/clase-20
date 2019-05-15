@@ -185,6 +185,7 @@ header {
 }
 .hamburguesa{
     display:block;
+    padding: 10px;
     
 }
 .avatares {
@@ -201,6 +202,10 @@ footer {
 }
 .img-redes {
     padding: 10px;
+    box-sizing: border-box;
+}
+.mail {
+    box-sizing: border-box;
 }
 .datos {
     display: flex;
@@ -215,6 +220,11 @@ text-align: center;
 }
 .img-avatar {
     z-index: 1;
+}
+
+a {
+    margin: 0;
+    padding: 0;
 }
 .nombre {
     position: relative;
@@ -231,4 +241,5 @@ text-align: center;
     z-index: 2;
     bottom: 40px;
     color: black;
+    padding: 2px;
 }
