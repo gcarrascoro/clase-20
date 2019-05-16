@@ -72,6 +72,8 @@ padding:30px;
     width: 100%;
     height:auto;
 }
+i { color: orangered;
+}
 h1
 {
     color: orangered;
@@ -158,7 +160,7 @@ body{
     width: 100%;
     height:auto;
 }
-.cuerpo-redes,.div-nav,#logo2 {
+.cuerpo-redes,.div-nav,#div-logo2 {
     display:none;
 }
 .div-logo {
@@ -174,6 +176,10 @@ header {
 .cuerpo {
     background-color: rgb(240, 235, 235);
 }
+
+
+
+
 .img-banner {
     
     width: 100%;
@@ -187,7 +193,9 @@ header {
     display:block;
     padding: 10px;
     
+    
 }
+.fa-bars {color: grey;}
 .avatares {
     display:flex;
     flex-direction: column;
